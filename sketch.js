@@ -5,9 +5,9 @@ function setup() {
 
 function draw() {
   background(205, 102, 94); //cor de fundo
-  rotateY(millis()/1000); // rotação da terra
+  rotateY(millis()/100000); // rotação da terra
   texture(terra); //textura da terra, imagem.
-  sphere(800, 1000); //esfera 3D
+  sphere(400, 500); //esfera 3D
   
   
 }
